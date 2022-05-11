@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+.classeElementosSpan {
+    font-size: 30px;
+}
+
+#frases {
+    color: coral;
+}
+
+p[objeto="a"] {
+    color: brown
+}
+
+button:hover {
+    background: red;
+
+    width: 100px;
+    height: 25px;
+
+    cursor: pointer;
+  }
+
+  #simbolo::after {
+    content: "←";
+    color: red;
+  }
